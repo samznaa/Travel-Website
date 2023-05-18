@@ -1,0 +1,125 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: "Playfair Display", serif;
+	max-width: 1400px;
+}
+	
+  header{ 
+  	     height: 100vh;
+  	      background-size: cover;
+  	      background-position: center;
+  	      
+  	       }
+nav
+{
+	background-color: #0008;
+	width: 1535px;
+	height: 90px;
+	
+}	      
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 40px;
+	margin-right: 70px;
+}
+ 
+ nav ul li{
+ 	display: inline-block;
+ 	margin-right: 5px; }
+
+ ul li a{
+ 	text-decoration: none;
+    color:white;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+
+ }
+ ul li a:hover {
+ 	 background-color: #3fc1c9;
+ 	 color:white;
+ 	 transition: 0.6s ease;
+ }
+
+.logo{position: absolute;
+	float: left;
+	margin-left: 80px;
+	width: 130px;
+	height:auto;
+	top: -20px;
+
+}
+.services{
+           text-align: center;
+            padding-top: : 40px;
+            padding-bottom: 50px;
+        }
+.services h1{
+	          position: relative;
+	 	   height: 190%;
+            left: 5%;
+             color: #393e46;
+			width: 200px;
+			font-size: 35px;
+			 padding: 10px 10px;
+			 margin: 40px 40px;
+			 border-bottom: 3px solid  #3fc1c9;
+		     }
+.services img{
+				 position: relative;
+					 	top: 35%;
+				            left: 40%;
+				            transform: translate(-50%,-50%);
+				            height: 350px;
+				            width: 500px;
+              }
+.paragraph p{ text-align: left;
+	          position: relative;
+	 	      height: 200%;
+            left: 5%;
+             color: #52616b;
+			font-size: 17px;
+			padding: 5px 55px;
+	 		margin-top: 25px;
+			  width: 35%;
+	 		
+	 	   }
+
+
+.cen{
+  max-width: 1200px;
+  margin: auto;
+  overflow: hidden;
+  padding: 15px;
+}
+.service{
+  display: inline-block;
+  width: calc(100% / 3);
+  margin: 0 -2px;
+  padding: 35px;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.service:hover{
+  background: #ddd;
+}
+.service i{
+  color: #3fc1c9;
+  font-size: 34px;
+  margin-bottom: 35px;
+}
+.service h2{
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin: 0;
+}
+.service p{
+  color: gray;
+  font-size: 15px;
+  font-weight: 100;
+  padding-top:10px;
+
+}

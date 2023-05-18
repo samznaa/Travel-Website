@@ -1,0 +1,129 @@
+*{
+	margin: 0px;
+	padding: 0px;
+    font-family: "Playfair Display", serif;
+	max-width: 1600px;
+}
+ 
+nav
+{
+	background-color: #0008;
+	width: 1535px;
+	height: 90px;
+	
+}	      
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 40px;
+	margin-right: 70px;
+}
+ 
+ nav ul li{
+ 	display: inline-block;
+ 	margin-right: 5px; }
+
+ ul li a{
+ 	text-decoration: none;
+    color:white;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+
+ }
+ ul li a:hover {
+ 	 background-color: #3fc1c9;
+ 	 color:white;
+ 	 transition: 0.6s ease;
+ }
+
+.logo{position: absolute;
+	float: left;
+	margin-left: 80px;
+	width: 130px;
+	height:auto;
+	top: -20px;
+
+}
+
+ 
+
+
+.about{ text-align: justify;
+	   background-color: white;
+	   width: 100%;
+	   height: 600px;
+	   
+	  }
+.about h1{
+
+		color: #393e46;
+		 width: 180px;
+		 font-size: 40px;
+		 padding: 10px 20px;
+		 margin: 30px 100px;
+		 border-bottom: 3px solid  #3fc1c9;
+
+	   
+	 }
+     
+	 .about p {
+     
+	 	font-size: 25px;
+	 	       width: 45%;
+	 		
+	 	   position: relative;
+	 	   height: 50px;
+            left:80px;
+	 		color: black;
+	 		padding: 5px 55px;
+	 		margin-top: 25px;
+	 }
+
+     .about p {
+     
+	 	font-size: 17px;
+	 	       width: 35%;
+	 		
+	 	   position: relative;
+	 	   height: 120px;
+            left: 80px;
+	 		color: #52616b;
+	 		padding: 5px 55px;
+	 		margin-top: 25px;
+	 }
+
+
+	 .explore-box h2{
+					position: absolute;
+					 	top: 80%;
+					 	left:15%;
+					 	transform: translate(-50%,-50%);
+                                color: white;
+                                font-size: 20px;
+                                 font-family: "Times New Roman", Times, sans serif;
+								border-style: 3px solid black;
+							      height: 30px;
+							      width: 120px;
+							      border-radius: 10px;
+							      padding: 17px 30px;
+							      background:#3fc1c9;
+							  }
+
+	.pictures1 img{  position: absolute;
+					 	top: 50%;
+					 	left:62%;
+					 	transform: translate(-50%,-50%);
+		             display: inline-block;
+		            height:400px;
+		            width: 270px;
+
+	             }
+
+.pictures2 img{  position: absolute;
+					 	top: 50%;
+					 	left:85%;
+					 	transform: translate(-50%,-50%);
+		             display: inline-block;
+		            height:400px;
+		            width: 270px;
+	              }
